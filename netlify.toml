@@ -5,5 +5,5 @@
 
 [build]
   node_version = "14"
-  command = "NODE_OPTIONS=--max_old_space_size=4096 yarn build"
+  command = "npx browserslist@latest --update-db && yarn build"
   base = "packages/client"
